@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "message": {
+      "type": "text",
+      "required": false
+    },
+    "fullName": {
+      "type": "string",
+      "required": true
+    },
+    "preferredTech": {
+      "type": "string",
+      "required": true
+    },
+    "engagementType": {
+      "type": "enumeration",
+      "default": "Custom Product Development",
+      "enum": [
+        "Custom Product Development",
+        "End-to-End Product Delivery",
+        "Fixed Project"
+      ]
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

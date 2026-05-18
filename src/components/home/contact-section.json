@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_home_contact_sections",
+  "info": {
+    "displayName": "Contact Section"
+  },
+  "options": {},
+  "attributes": {
+    "contactTitle": {
+      "type": "string"
+    },
+    "contactSubTitle": {
+      "type": "string"
+    },
+    "contactDescription": {
+      "type": "text"
+    },
+    "contactTagline": {
+      "type": "text"
+    },
+    "contactSupportEmail": {
+      "type": "email"
+    },
+    "contactDetails": {
+      "type": "component",
+      "component": "industrie-details.details",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

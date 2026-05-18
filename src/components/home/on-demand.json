@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_home_on_demands",
+  "info": {
+    "displayName": "On Demand"
+  },
+  "options": {},
+  "attributes": {
+    "onDemandDetails": {
+      "type": "component",
+      "component": "industrie-details.details",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

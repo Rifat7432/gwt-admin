@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_home_bannar_sections",
+  "info": {
+    "displayName": "Bannar Section"
+  },
+  "options": {},
+  "attributes": {
+    "bannarTitle": {
+      "type": "string"
+    },
+    "bannarDescription": {
+      "type": "text"
+    },
+    "bannarRating": {
+      "type": "integer",
+      "required": true,
+      "min": 1,
+      "max": 5
+    },
+    "brandsTitle": {
+      "type": "string"
+    },
+    "brandsImages": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "bannarVideoUrl": {
+      "type": "string"
+    },
+    "bannarIntroVideoUrl": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

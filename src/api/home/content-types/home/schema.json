@@ -1,0 +1,60 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bannarSection": {
+      "type": "component",
+      "component": "home.bannar-section",
+      "repeatable": false
+    },
+    "contactSection": {
+      "type": "component",
+      "component": "home.contact-section",
+      "repeatable": false
+    },
+    "engagementModelSection": {
+      "type": "component",
+      "component": "home.engagement-model-section",
+      "repeatable": false
+    },
+    "impactSection": {
+      "type": "component",
+      "component": "home.impact-section",
+      "repeatable": false
+    },
+    "industrySection": {
+      "type": "component",
+      "component": "home.industry-section",
+      "repeatable": false
+    },
+    "onDemandSection": {
+      "type": "component",
+      "component": "home.on-demand",
+      "repeatable": false
+    },
+    "selectedWorkSection": {
+      "type": "component",
+      "component": "home.selected-work-section",
+      "repeatable": false
+    },
+    "techStackSection": {
+      "type": "component",
+      "component": "home.tech-stack-section",
+      "repeatable": false
+    },
+    "testimonialSection": {
+      "type": "component",
+      "component": "home.testimonial-section",
+      "repeatable": false
+    }
+  }
+}

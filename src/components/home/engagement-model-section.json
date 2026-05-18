@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_home_engagement_model_sections",
+  "info": {
+    "displayName": "Engagement Model Section"
+  },
+  "options": {},
+  "attributes": {
+    "engagementModelTitle": {
+      "type": "string"
+    },
+    "engagementModelImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

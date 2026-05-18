@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_home_selected_work_sections",
+  "info": {
+    "displayName": "Selected Work Section"
+  },
+  "options": {},
+  "attributes": {
+    "selectedWorkTitle": {
+      "type": "string"
+    },
+    "selectedWorkYears": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

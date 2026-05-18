@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_home_tech_stack_sections",
+  "info": {
+    "displayName": "Tech Stack Section"
+  },
+  "options": {},
+  "attributes": {
+    "techStackTitle": {
+      "type": "string"
+    },
+    "techStackDescription": {
+      "type": "text"
+    },
+    "techStackTechNumber": {
+      "type": "integer"
+    },
+    "techStackImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

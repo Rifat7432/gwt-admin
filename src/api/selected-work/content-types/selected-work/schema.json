@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "selected_works",
+  "info": {
+    "singularName": "selected-work",
+    "pluralName": "selected-works",
+    "displayName": "Selected Work"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

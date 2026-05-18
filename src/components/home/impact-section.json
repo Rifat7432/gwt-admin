@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_home_impact_sections",
+  "info": {
+    "displayName": "Impact Section"
+  },
+  "options": {},
+  "attributes": {
+    "impactSectionTitle": {
+      "type": "string"
+    },
+    "impactSectionClientRetentionRate": {
+      "type": "integer",
+      "required": true,
+      "min": 1,
+      "max": 5
+    },
+    "impactSectionProjectsDelivered": {
+      "type": "integer"
+    },
+    "impactSectionUsersWorldwide": {
+      "type": "integer"
+    },
+    "impactSectionExperience": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

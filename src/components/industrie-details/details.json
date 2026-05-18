@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_industrie_details_details",
+  "info": {
+    "displayName": "details"
+  },
+  "options": {},
+  "attributes": {
+    "details": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

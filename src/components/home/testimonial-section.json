@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_home_testimonial_sections",
+  "info": {
+    "displayName": "Testimonial Section"
+  },
+  "options": {},
+  "attributes": {
+    "testimonialSectionTitle": {
+      "type": "string",
+      "required": true
+    },
+    "testimonialAverageRating": {
+      "type": "integer",
+      "required": true,
+      "min": 1,
+      "max": 5
+    }
+  },
+  "config": {}
+}
