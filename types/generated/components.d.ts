@@ -125,7 +125,7 @@ export interface HomeServiceSection extends Struct.ComponentSchema {
     serviceImage: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
     >;
-    services: Schema.Attribute.Component<'navbar.services', true>;
+    services: Schema.Attribute.Relation<'oneToMany', 'api::service.service'>;
     serviceTagline: Schema.Attribute.Text;
     serviceTitle: Schema.Attribute.String;
   };
@@ -214,7 +214,6 @@ export interface NavbarServices extends Struct.ComponentSchema {
     serviceIcon: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
     >;
-    serviceTitle: Schema.Attribute.String;
   };
 }
 

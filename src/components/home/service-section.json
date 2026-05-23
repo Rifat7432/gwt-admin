@@ -25,9 +25,9 @@
       "type": "text"
     },
     "services": {
-      "type": "component",
-      "component": "navbar.services",
-      "repeatable": true
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
     }
   },
   "config": {}
