@@ -65,14 +65,7 @@ export interface HomeImpactSection extends Struct.ComponentSchema {
   };
   attributes: {
     impactSectionClientRetentionRate: Schema.Attribute.Integer &
-      Schema.Attribute.Required &
-      Schema.Attribute.SetMinMax<
-        {
-          max: 5;
-          min: 1;
-        },
-        number
-      >;
+      Schema.Attribute.Required;
     impactSectionExperience: Schema.Attribute.Integer;
     impactSectionProjectsDelivered: Schema.Attribute.Integer;
     impactSectionTitle: Schema.Attribute.String;

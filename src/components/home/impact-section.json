@@ -10,9 +10,7 @@
     },
     "impactSectionClientRetentionRate": {
       "type": "integer",
-      "required": true,
-      "min": 1,
-      "max": 5
+      "required": true
     },
     "impactSectionProjectsDelivered": {
       "type": "integer"

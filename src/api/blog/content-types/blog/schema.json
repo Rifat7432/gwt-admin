@@ -17,7 +17,7 @@
     "publishingDate": {
       "type": "date"
     },
-    "imgae": {
+    "image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
@@ -68,6 +68,10 @@
     },
     "linkedinLink": {
       "type": "string"
+    },
+    "isFeatured": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
