@@ -23,6 +23,11 @@
     },
     "serviceTagline": {
       "type": "text"
+    },
+    "services": {
+      "type": "component",
+      "component": "navbar.services",
+      "repeatable": true
     }
   },
   "config": {}

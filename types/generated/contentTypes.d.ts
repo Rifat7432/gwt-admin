@@ -818,6 +818,36 @@ export interface ApiServiceService extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiSupscriptionSupscription
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'supscriptions';
+  info: {
+    displayName: 'Supscription';
+    pluralName: 'supscriptions';
+    singularName: 'supscription';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    email: Schema.Attribute.Email;
+    fullName: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::supscription.supscription'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiTechStackTechStack extends Struct.CollectionTypeSchema {
   collectionName: 'tech_stacks';
   info: {
@@ -1446,6 +1476,7 @@ declare module '@strapi/strapi' {
       'api::privacy-policy.privacy-policy': ApiPrivacyPolicyPrivacyPolicy;
       'api::selected-work.selected-work': ApiSelectedWorkSelectedWork;
       'api::service.service': ApiServiceService;
+      'api::supscription.supscription': ApiSupscriptionSupscription;
       'api::tech-stack.tech-stack': ApiTechStackTechStack;
       'api::terms-and-condition.terms-and-condition': ApiTermsAndConditionTermsAndCondition;
       'api::testimonial.testimonial': ApiTestimonialTestimonial;

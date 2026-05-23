@@ -125,6 +125,7 @@ export interface HomeServiceSection extends Struct.ComponentSchema {
     serviceImage: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
     >;
+    services: Schema.Attribute.Component<'navbar.services', true>;
     serviceTagline: Schema.Attribute.Text;
     serviceTitle: Schema.Attribute.String;
   };
