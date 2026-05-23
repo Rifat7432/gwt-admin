@@ -496,7 +496,7 @@ export interface ApiBlogBlog extends Struct.CollectionTypeSchema {
       Schema.Attribute.CustomField<
         'plugin::ckeditor5.CKEditor',
         {
-          preset: 'defaultMarkdown';
+          preset: 'defaultHtml';
         }
       >;
     facebookLink: Schema.Attribute.String;
@@ -731,7 +731,7 @@ export interface ApiPrivacyPolicyPrivacyPolicy extends Struct.SingleTypeSchema {
       Schema.Attribute.CustomField<
         'plugin::ckeditor5.CKEditor',
         {
-          preset: 'defaultMarkdown';
+          preset: 'defaultHtml';
         }
       >;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
@@ -868,7 +868,7 @@ export interface ApiTermsAndConditionTermsAndCondition
       Schema.Attribute.CustomField<
         'plugin::ckeditor5.CKEditor',
         {
-          preset: 'defaultMarkdown';
+          preset: 'defaultHtml';
         }
       >;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
