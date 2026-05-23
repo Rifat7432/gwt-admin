@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_service_processes",
+  "info": {
+    "displayName": "process"
+  },
+  "options": {},
+  "attributes": {
+    "processTitle": {
+      "type": "string"
+    },
+    "processDescription": {
+      "type": "text"
+    },
+    "index": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

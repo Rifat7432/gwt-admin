@@ -55,6 +55,11 @@
       "type": "component",
       "component": "home.testimonial-section",
       "repeatable": false
+    },
+    "serviceSection": {
+      "type": "component",
+      "component": "home.service-section",
+      "repeatable": false
     }
   }
 }

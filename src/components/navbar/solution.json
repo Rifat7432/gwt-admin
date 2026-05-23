@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_navbar_solutions",
+  "info": {
+    "displayName": "Solution"
+  },
+  "options": {},
+  "attributes": {
+    "solutoinTitle": {
+      "type": "string"
+    },
+    "solutionIcon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_service_selected_works",
+  "info": {
+    "displayName": "Selected works"
+  },
+  "options": {},
+  "attributes": {
+    "selectedWorkSectionTitle": {
+      "type": "string"
+    },
+    "selectedWorkSectionTag": {
+      "type": "string"
+    },
+    "selectedWorkSectionData": {
+      "type": "component",
+      "component": "service.selected-works-data",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

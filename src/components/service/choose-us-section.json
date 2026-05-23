@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_service_choose_us_sections",
+  "info": {
+    "displayName": "Choose Us Section"
+  },
+  "options": {},
+  "attributes": {
+    "chooseUsSectionTag": {
+      "type": "string"
+    },
+    "chooseUsSectionTitle": {
+      "type": "string"
+    },
+    "chooseUsSectionData": {
+      "type": "component",
+      "component": "service.choose-us-section-data",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

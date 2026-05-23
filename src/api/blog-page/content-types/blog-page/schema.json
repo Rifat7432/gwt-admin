@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_pages",
+  "info": {
+    "singularName": "blog-page",
+    "pluralName": "blog-pages",
+    "displayName": "Blog Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string"
+    },
+    "pageDescription": {
+      "type": "text"
+    },
+    "secondTitle": {
+      "type": "string"
+    },
+    "secondDiscription": {
+      "type": "text"
+    },
+    "lastTitle": {
+      "type": "string"
+    },
+    "lastDiscription": {
+      "type": "text"
+    }
+  }
+}

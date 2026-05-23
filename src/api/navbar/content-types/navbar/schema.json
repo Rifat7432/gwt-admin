@@ -1,0 +1,85 @@
+{
+  "kind": "singleType",
+  "collectionName": "navbars",
+  "info": {
+    "singularName": "navbar",
+    "pluralName": "navbars",
+    "displayName": "Navbar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "services": {
+      "type": "component",
+      "component": "navbar.services",
+      "repeatable": true
+    },
+    "industries": {
+      "type": "component",
+      "component": "navbar.industry",
+      "repeatable": true
+    },
+    "approach": {
+      "type": "component",
+      "component": "navbar.approach",
+      "repeatable": true
+    },
+    "solution": {
+      "type": "component",
+      "component": "navbar.solution",
+      "repeatable": true
+    },
+    "solutionSidbar": {
+      "type": "component",
+      "component": "navbar.solution-sidbar",
+      "repeatable": true
+    },
+    "serviceSidbarDescription": {
+      "type": "text"
+    },
+    "solutionSidbarDescription": {
+      "type": "text"
+    },
+    "serviceSidbarTitle": {
+      "type": "string"
+    },
+    "serviceSidbarContactEmail": {
+      "type": "email"
+    },
+    "ServiceSidbarImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "navbarIcom": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "footerIcon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "contactLink": {
+      "type": "string"
+    }
+  }
+}

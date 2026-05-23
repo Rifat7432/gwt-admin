@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_navbar_industries",
+  "info": {
+    "displayName": "Industry"
+  },
+  "options": {},
+  "attributes": {
+    "industryTitle": {
+      "type": "string"
+    },
+    "industryIcon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

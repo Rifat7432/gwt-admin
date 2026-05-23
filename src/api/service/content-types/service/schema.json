@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "serviceTitle": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "serviceTitle"
+    },
+    "bannar": {
+      "type": "component",
+      "component": "service.bannar-section",
+      "repeatable": false
+    },
+    "chooseUs": {
+      "type": "component",
+      "component": "service.choose-us-section",
+      "repeatable": false
+    },
+    "offer": {
+      "type": "component",
+      "component": "service.offer-section",
+      "repeatable": false
+    },
+    "selectedWork": {
+      "type": "component",
+      "component": "service.selected-works",
+      "repeatable": false
+    },
+    "ourProcess": {
+      "type": "component",
+      "component": "service.our-process-section",
+      "repeatable": false
+    },
+    "faq": {
+      "type": "component",
+      "component": "service.faq-section",
+      "repeatable": false
+    }
+  }
+}

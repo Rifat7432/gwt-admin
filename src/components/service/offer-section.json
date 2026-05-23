@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_service_offer_sections",
+  "info": {
+    "displayName": "Offer Section"
+  },
+  "options": {},
+  "attributes": {
+    "offerSectionTitle": {
+      "type": "string"
+    },
+    "offerSectionDescription": {
+      "type": "text"
+    },
+    "offerSectionTag": {
+      "type": "string"
+    },
+    "offerSectionBottomTagline": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

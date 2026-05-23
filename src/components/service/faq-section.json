@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_service_faq_sections",
+  "info": {
+    "displayName": "FAQ Section"
+  },
+  "options": {},
+  "attributes": {
+    "FAQTag": {
+      "type": "string"
+    },
+    "FAQTitle": {
+      "type": "string"
+    },
+    "FAQDescription": {
+      "type": "text"
+    },
+    "contactEmail": {
+      "type": "email"
+    },
+    "faqs": {
+      "type": "component",
+      "component": "service.faq",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

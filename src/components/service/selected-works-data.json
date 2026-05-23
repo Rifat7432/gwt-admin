@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_service_selected_works_data",
+  "info": {
+    "displayName": "Selected Works Data"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "impact": {
+      "type": "string"
+    },
+    "impactDescription": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

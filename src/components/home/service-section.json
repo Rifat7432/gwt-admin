@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_home_service_sections",
+  "info": {
+    "displayName": "Service Section"
+  },
+  "options": {},
+  "attributes": {
+    "serviceTitle": {
+      "type": "string"
+    },
+    "serviceDiscripction": {
+      "type": "text"
+    },
+    "serviceImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "serviceTagline": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

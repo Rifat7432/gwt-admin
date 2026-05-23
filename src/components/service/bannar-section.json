@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_service_bannar_sections",
+  "info": {
+    "displayName": "Bannar Section"
+  },
+  "options": {},
+  "attributes": {
+    "bannarTitle": {
+      "type": "string"
+    },
+    "bannarDescription": {
+      "type": "text"
+    },
+    "bannarImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "brandsTitle": {
+      "type": "string"
+    },
+    "brandsImages": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "brandsTagline": {
+      "type": "string"
+    },
+    "BannarTag": {
+      "type": "string"
+    },
+    "bannarBottomTagline": {
+      "type": "string"
+    },
+    "bannarBottomApproachDescription": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

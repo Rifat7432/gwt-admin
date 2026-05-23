@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_service_our_process_sections",
+  "info": {
+    "displayName": "Our Process Section"
+  },
+  "options": {},
+  "attributes": {
+    "ourProcessTag": {
+      "type": "string"
+    },
+    "ourProcessTitle": {
+      "type": "string"
+    },
+    "process": {
+      "type": "component",
+      "component": "service.process",
+      "repeatable": true
+    },
+    "ourProcessBgImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "testimonial": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::testimonial.testimonial"
+    }
+  },
+  "config": {}
+}

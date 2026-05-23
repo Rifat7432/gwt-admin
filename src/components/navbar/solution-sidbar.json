@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_navbar_solution_sidbars",
+  "info": {
+    "displayName": "Solution Sidbar"
+  },
+  "options": {},
+  "attributes": {
+    "solutionSidbarTitle": {
+      "type": "string"
+    },
+    "solutionSdibarDescription": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

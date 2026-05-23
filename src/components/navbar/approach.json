@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_navbar_approaches",
+  "info": {
+    "displayName": "Approach"
+  },
+  "options": {},
+  "attributes": {
+    "approachTitle": {
+      "type": "string"
+    },
+    "approachDescription": {
+      "type": "text"
+    },
+    "approachIcon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}
