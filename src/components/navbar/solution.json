@@ -17,6 +17,11 @@
         "videos",
         "audios"
       ]
+    },
+    "sidbar": {
+      "type": "component",
+      "component": "navbar.solution-sidbar",
+      "repeatable": true
     }
   },
   "config": {}

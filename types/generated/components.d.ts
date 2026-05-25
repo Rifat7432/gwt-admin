@@ -216,6 +216,7 @@ export interface NavbarSolution extends Struct.ComponentSchema {
     displayName: 'Solution';
   };
   attributes: {
+    sidbar: Schema.Attribute.Component<'navbar.solution-sidbar', true>;
     solutionIcon: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
     >;

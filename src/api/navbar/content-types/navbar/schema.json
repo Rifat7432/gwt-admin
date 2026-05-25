@@ -31,11 +31,6 @@
       "component": "navbar.solution",
       "repeatable": true
     },
-    "solutionSidbar": {
-      "type": "component",
-      "component": "navbar.solution-sidbar",
-      "repeatable": true
-    },
     "serviceSidbarDescription": {
       "type": "text"
     },

@@ -705,7 +705,6 @@ export interface ApiNavbarNavbar extends Struct.SingleTypeSchema {
     >;
     serviceSidbarTitle: Schema.Attribute.String;
     solution: Schema.Attribute.Component<'navbar.solution', true>;
-    solutionSidbar: Schema.Attribute.Component<'navbar.solution-sidbar', true>;
     solutionSidbarDescription: Schema.Attribute.Text;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
