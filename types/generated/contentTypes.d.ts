@@ -590,6 +590,40 @@ export interface ApiEngagementModelEngagementModel
   };
 }
 
+export interface ApiGdprGdpr extends Struct.SingleTypeSchema {
+  collectionName: 'gdprs';
+  info: {
+    displayName: 'GDPR';
+    pluralName: 'gdprs';
+    singularName: 'gdpr';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    description: Schema.Attribute.Text;
+    details: Schema.Attribute.RichText &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<'oneToMany', 'api::gdpr.gdpr'> &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    tag: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiHomeHome extends Struct.SingleTypeSchema {
   collectionName: 'homes';
   info: {
@@ -1470,6 +1504,7 @@ declare module '@strapi/strapi' {
       'api::blog.blog': ApiBlogBlog;
       'api::contact.contact': ApiContactContact;
       'api::engagement-model.engagement-model': ApiEngagementModelEngagementModel;
+      'api::gdpr.gdpr': ApiGdprGdpr;
       'api::home.home': ApiHomeHome;
       'api::industrie.industrie': ApiIndustrieIndustrie;
       'api::navbar.navbar': ApiNavbarNavbar;
